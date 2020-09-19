@@ -14,11 +14,10 @@ You can sign up with my referral link <https://m.do.co/c/b5a9fc36fd95> and get $
   - [2.- Credentials](#2--credentials)
     - [For Digital Ocean](#for-digital-ocean)
     - [SSH Private and Public keys](#ssh-private-and-public-keys)
-  - [3.- Terraform](#3--terraform)
+  - [3.- Full Automation: Terraform and Ansible](#3--terraform-ansible)
     - [Digital Ocean](#digital-ocean)
-  - [4.- Ansible](#4--ansible)
-  - [5.- Access to VPS](#5--access-to-vps)
-  - [6.- Destroy the VPS](#6--destroy-the-vps)
+  - [4.- Access to VPS](#5--access-to-vps)
+  - [5.- Destroy the VPS](#6--destroy-the-vps)
 - [Security](#shield-security)
 - [Donations](#coffee-donations)
 - [Contributing](#contributing)
@@ -58,7 +57,7 @@ cd vps-mainRecon
 
 - Create a Personal access tokens with write permission and copy it. [See Tutorial](https://www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/)
 
-#### 3.- Terraform
+#### 3.- Full Automation: Terraform and Ansible
 
 ##### Digital Ocean
 
@@ -85,24 +84,8 @@ external_ip = x.x.x.x
 **Demo**
 [![asciicast](https://asciinema.org/a/356737.svg)](https://asciinema.org/a/356737)
 
-#### 4.- Ansible
 
-- Enter to ansible folder
-- In hosts.yaml change the x.x.x.x by external_ip value copied.
-- Run the next command:
-
-```console
-$ ansible-playbook playbook.yaml
-TASK [Configuration finished] *******************************************************
-ok: [x.x.x.x] => {
-    "msg": "System configured correctly."
-}
-```
-
-**Demo**
-[![asciicast](https://asciinema.org/a/356739.svg)](https://asciinema.org/a/356739)
-
-#### 5.- Access to VPS & Run mainRecon
+#### 4.- Access to VPS & Run mainRecon
 
 - In digital-ocean folder run the next command. Change x.x.x.x by external_ip value copied.
 
