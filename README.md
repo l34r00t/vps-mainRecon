@@ -97,7 +97,7 @@ $ ssh mainrecon@x.x.x.x -i ../credentials/mainRecon
 - For run mainRecon image you can see the [mainRecon](https://github.com/l34r00t/mainRecon#option-2---use-the-image-from-docker-hub) repository.
 
 **Demo**
-[![asciicast](https://asciinema.org/a/356742.svg)](https://asciinema.org/a/356742)
+[![asciicast](https://asciinema.org/a/360595.svg)](https://asciinema.org/a/360595)
 
 #### 6.- Destroy the VPS
 
