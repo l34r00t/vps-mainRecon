@@ -82,7 +82,7 @@ external_ip = x.x.x.x
 **Note:** The droplet type and the region used are: s-2vcpu-4gb and nyc3. You can change the values on server.tf and variables.tf
 
 **Demo**
-[![asciicast](https://asciinema.org/a/356737.svg)](https://asciinema.org/a/356737)
+[![asciicast](https://asciinema.org/a/360592.svg)](https://asciinema.org/a/360592?t=25&speed=2)
 
 
 #### 4.- Access to VPS & Run mainRecon

@@ -1,5 +1,2 @@
-all:
-    children:
-      lab:
-        hosts:
-          x.x.x.x:
+[lab]
+159.203.91.193
